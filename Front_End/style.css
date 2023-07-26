@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    padding: 1em;
+    margin: .5em;
+    font-family: monospace;
+    font-size: 16px;
+    align-items: center;
+    user-select: none;
+}
+
+#menuList, a, input{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 5px;
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+#formList, #selectIdForm {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    padding: 5px;
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+#selectIdForm {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    max-width: fit-content;
+}
+
+#actionBtn{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    cursor: pointer;
+    max-width: fit-content;
+    background-color: lightslategray;
+}
+
+.listItem:hover {
+    background-color: lightgoldenrodyellow;
+    border: 1px solid #ffffff;
+}
+
+.listItem {
+    border: 1px solid #000000;
+    margin: 5px;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.rules {
+    font-style: italic;
+}
+
+#createPageDisclaimer {
+    font-size: 13px;
+    max-width: fit-content;
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

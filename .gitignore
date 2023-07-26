@@ -9,6 +9,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+Back_End/dbProperties.php
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
